@@ -1,8 +1,8 @@
 [
 	{
 		"name": "Ciutat de les arts",
-    		"replaces":"Amphitheater",
-    		"uniqueTo":"Valencia",
+    		"replaces": "Amphitheater",
+    		"uniqueTo": "Valencia",
     		"requiredBuilding": "Monument",
 		"maintenance": 3,
 		"Culture": 4,
@@ -16,7 +16,7 @@
 		"name":"Fallas",
 		"uniqueTo":"Valencia",
 		"maintenance": 2,
-		"culture": 1,
+		"Culture": 1,
 		"greatPersonPoints": {"Great Artist": 1},
 		"hurryCostModifier": 25,
 		"requiredTech": "Construction"
@@ -25,7 +25,7 @@
 		"name": "Mercat central",
 		"replaces": "Market",
 		"uniqueTo": "Valencia",
-		"gold": 2,
+		"Gold": 2,
 		"specialistSlots": {"Merchant": 2},
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 25},
@@ -40,7 +40,7 @@
 		"maintenance": 2,
 		"Culture": 1,
 		"greatPersonPoints": {"Great Engineer": 1},
-		"specialistSlots": [{"Artist": 1}, {"Scientist": 1}],
+		"specialistSlots": {"Artist": 1, "Scientist": 1},
 		"hurryCostModifier": 15,
 		"percentStatBonus": {"science": 33},
 		"requiredBuilding": "Library",
