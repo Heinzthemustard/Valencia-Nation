@@ -32,5 +32,18 @@
 		"uniques": ["Provides 1 extra copy of each improved luxury resource near this City",
 			"[+2 Gold] from [Citrus] tiles [in this city]", "[+2 Gold] from [Wine] tiles [in this city]"],
 		"requiredTech": "Currency"
+	},
+	{
+		"name": "UPV",
+		"replaces": "University",
+		"uniqueTo": "Valencia",
+		"maintenance": 2,
+		"Culture": 1,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"specialistSlots": [{"Artist": 1}, {"Scientist": 1}],
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 33},
+		"requiredBuilding": "Library",
+		"requiredTech": "Education"
 	}
 ]
