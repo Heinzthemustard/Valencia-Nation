@@ -1,0 +1,15 @@
+[
+  {
+		"name": "Ciutat de les arts",
+    "replaces":"Amphitheater",
+    "uniqueTo":"Valencia",
+    "requiredBuilding": "Monument",
+		"maintenance": 3,
+		"Culture": 4,
+    "specialistSlots": {"Artist": 1},
+    "greatPersonPoints": {"Great Scientist": 1},
+		"production": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Drama and Poetry"
+	}
+]
