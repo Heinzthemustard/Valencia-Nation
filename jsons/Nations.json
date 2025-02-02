@@ -22,7 +22,7 @@
 
 		"outerColor": [39, 103, 255],
 		"innerColor": [230, 192, 33],
-		"favoredReligion": "Christianism",
+		"favoredReligion": "Christianity",
 		"uniqueName": "Artistas Falleros",
 		"uniques": ["Free [Great Artist] appears <upon discovering [Construction] technology>", "[Great Artist] is earned [50]% faster"],
 		"cities": ["Valencia","Lliria","Bunyol","Torrent","Paterna","Catarroja","Xàtiva","Burjassot","Bétera",
