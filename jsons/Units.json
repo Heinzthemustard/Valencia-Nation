@@ -1,0 +1,30 @@
+[
+{
+		"name": "Brute",
+		"unitType": "Sword",
+		"uniqueTo": "Barbarian Nation",
+		"replaces": "Warrior",
+		"movement": 2,
+		"strength": 8,
+		"cost": 13,
+		"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Swordsman",
+		"attackSound": "nonmetalhit"
+	},
+  {
+		"name": "Skirmisher",
+		"unitType": "Archery",
+		"uniqueTo": "Barbarians",
+		"replaces": "Archer",
+		"movement": 2,
+		"strength": 4,
+		"rangedStrength": 7,
+		"cost": 30,
+		"requiredTech": "Archery",
+		"obsoleteTech": "Machinery",
+		"upgradesTo": "Crossbowman",
+		"attackSound": "arrow"
+	},
+  {
+    
+]
