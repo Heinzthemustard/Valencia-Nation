@@ -1,4 +1,14 @@
 [
+	{
+		"name": "Worker",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": [
+			"Can build [Land] improvements on tiles"
+		],
+		"upgradesTo": "Militia",
+		"cost": 70
+	},
 {
 		"name": "Brute",
 		"unitType": "Sword",
@@ -44,7 +54,7 @@
 	{
 		"name": "Pirate Ship",
 		"unitType": "Melee Water",
-		"uniqueTo": "Barbarians",
+		"uniqueTo": "Barbarian Nation",
 		"movement": 3,
 		"strength": 7,
 		"cost": 30,
@@ -57,7 +67,7 @@
 		"name": "Marauder",
 		"unitType": "Sword",
 		"replaces": "Spearman",
-		"uniqueTo": "Barbarians",
+		"uniqueTo": "Barbarian Nation",
 		"movement": 3,
 		"strength": 10,
 		"cost": 45,
@@ -71,7 +81,7 @@
 	{
 		"name": "Terrorist",
 		"unitType": "Gunpowder",
-		"uniqueTo": "Barbarians",
+		"uniqueTo": "Barbarian Nation",
 		"replaces": "Infantry",
 		"movement": 2,
 		"strength": 65,
@@ -82,5 +92,18 @@
 		],
 		"attackSound": "shot"
 		// Credits to Sullien's Future expansion mod 
+	},
+	{
+		"name":"Militia",
+		"unitType":"Gunpowder",
+		"uniqueTo":"Barbarian Nation",
+		"movement": 2,
+		"strength": 20,
+		"cost": 100,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
+		"promotions": ["Ambush I","Cover I","Morale"],
+		"attackSound": "shot"
 	}
 ]
