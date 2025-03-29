@@ -55,7 +55,7 @@
     		"innerColor": [185,12,12],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Barbarian Rage",
-		"uniques": ["Gain a free [Barracks] [in all cities]","[Great General] is earned [25]% faster","Starts with [Honor]","[-33]% Gold cost of upgrading <for [Military] units>"],
+		"uniques": ["Gain a free [Barracks] [in all cities]","[Great General] is earned [25]% faster","Earn [100]% of killed [All] unit's [Strength] as [Gold]","[-33]% Gold cost of upgrading <for [Military] units>"],
 		"cities": ["Alpha","Beta","Gamma","Delta","Epsilon","Theta","Sigma","Phi","Omega",
 			"New Alpha","New Beta","New Gamma","New Delta","Cheste","Chiva","Alaquás","Sedaví","Arbela","Nuzi",
 			"Arrapkha","Tutub","Shaduppum","Rapiqum","Mashkan Shapir","Tuttul","Ramad","Ana","Haradum","Agrab",
