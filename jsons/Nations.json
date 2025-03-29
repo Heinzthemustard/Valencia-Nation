@@ -30,5 +30,36 @@
 			"Arrapkha","Tutub","Shaduppum","Rapiqum","Mashkan Shapir","Tuttul","Ramad","Ana","Haradum","Agrab",
 			"Uqair","Gubba","Hafriyat","Nagar","Shubat Enlil","Urhai","Urkesh","Awan","Riblah","Tayma"],
         "spyNames": ["Joan Ribó", "Joan Roig", "Jordi Poma", "Joan Petit", "Ur-zigurumaš", "Semiramis", "Em", "Ishtar", "Bilit Taauth", "Aruru"]
+	},
+	 {
+		"name": "Barbarian Nation",
+		"leaderName": "No leader",
+		"adjective": ["Barbarian"],
+		"startBias": ["Forest"],
+		"preferredVictoryType": "Domination",
+		"personality": "Casimir III",
+
+		"startIntroPart1": "Siempre existe la oposición pero ahora se ha organizado para formar bases y te necesitan para que les dirijas. Los bárbaros siempre han sido objeto de burla en este juego igual que los goblins en otros juegos. Bueno, pues ahora tú eres los Goblins.",
+
+		"declaringWar": "Nosotros, los bárbaros, contra quienes se supone que seais vosotros.",
+		"attacked": "Estamos acostumbrados a vivir luchando.",
+		"defeated": "Derrotados como siempre...",
+		"introduction": "No te aseguramos la paz.",
+
+		"neutralHello": "Buenas.",
+		"hateHello": "Hola...",
+
+		"tradeRequest": "Le aseguro que le interesa hacer negocios con nosotros.",
+
+		"outerColor": [0,0,0],
+    		"innerColor": [185,12,12],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Barbarian Rage",
+		"uniques": ["Gain a free [Barracks] [in all cities]","[Great General] is earned [25]% faster","Starts with [Honor]","[-33]% Gold cost of upgrading <for [Military] units>"],
+		"cities": ["Alpha","Beta","Gamma","Delta","Epsilon","Theta","Sigma","Phi","Omega",
+			"New Alpha","New Beta","New Gamma","New Delta","Cheste","Chiva","Alaquás","Sedaví","Arbela","Nuzi",
+			"Arrapkha","Tutub","Shaduppum","Rapiqum","Mashkan Shapir","Tuttul","Ramad","Ana","Haradum","Agrab",
+			"Uqair","Gubba","Hafriyat","Nagar","Shubat Enlil","Urhai","Urkesh","Awan","Riblah","Tayma"],
+        "spyNames": ["Jimmy Fallen", "Nern", "Olan Hawkeye", "Ram Jim", "Efezelios", "Em", "Ishtar", "Bilit Taauth", "Aruru"]
 	}
 ]
