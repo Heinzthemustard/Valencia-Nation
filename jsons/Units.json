@@ -36,11 +36,11 @@
 		"upgradesTo": "Crossbowman",
 		"attackSound": "arrow"
 	},
-  {
-	  	"name": "Pirate",
-	  	"UnitType":"Sword",
-	  	"uniqueTo":"Barbarian Nation",
-	  	"replaces":"Spearman",
+ 	{
+	  	"name": "Rogue",
+	  	"UnitType": "Sword",
+	  	"uniqueTo": "Barbarian Nation",
+	  	"replaces": "Spearman",
 	  	"movement": 2,
 	  	"strength": 10,
 		"cost": 30,
@@ -48,7 +48,7 @@
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
 		"uniques": ["[+25]% Strength <vs [Wounded] units>"],
-	  	"promotions":["Amphibious"],
+	  	"promotions": ["Amphibious","Ignore terrain cost"],
 	  	"attackSound": "metalhit"
  	},
 	{
