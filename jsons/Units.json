@@ -38,7 +38,7 @@
 	},
  	{
 	  	"name": "Rogue",
-	  	"UnitType": "Sword",
+	  	"unitType": "Sword",
 	  	"uniqueTo": "Barbarian Nation",
 	  	"replaces": "Spearman",
 	  	"movement": 2,
