@@ -48,8 +48,8 @@
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
 		"uniques": ["[+25]% Strength <vs [Wounded] units>"],
-		"attackSound": "metalhit"
 	  	"promotions":["Amphibious"],
+	  	"attackSound": "metalhit"
  	},
 	{
 		"name": "Pirate Ship",
