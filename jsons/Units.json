@@ -10,21 +10,77 @@
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Swordsman",
 		"attackSound": "nonmetalhit"
+		"promotions":["Shock I"], 
 	},
   {
 		"name": "Skirmisher",
 		"unitType": "Archery",
-		"uniqueTo": "Barbarians",
+		"uniqueTo": "Barbarian Nation",
 		"replaces": "Archer",
 		"movement": 2,
 		"strength": 4,
 		"rangedStrength": 7,
-		"cost": 30,
+		"cost": 16,
 		"requiredTech": "Archery",
 		"obsoleteTech": "Machinery",
 		"upgradesTo": "Crossbowman",
 		"attackSound": "arrow"
 	},
   {
-    
+	  	"name": "Pirate",
+	  	"UnitType":"Sword",
+	  	"uniqueTo":"Barbarian Nation",
+	  	"replaces":"Spearman",
+	  	"movement": 2,
+	  	"strength": 10,
+		"cost": 30,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"uniques": ["[+25]% Strength <vs [Wounded] units>"],
+		"attackSound": "metalhit"
+	  	"promotions":["Amphibious"],
+ 	},
+	{
+		"name": "Pirate Ship",
+		"unitType": "Melee Water",
+		"uniqueTo": "Barbarians",
+		"movement": 3,
+		"strength": 7,
+		"cost": 30,
+		"upgradesTo": "Caravel",
+		"obsoleteTech": "Astronomy",
+		"promotions": ["Coastal Raider I", "[Privateer] ability"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Marauder",
+		"unitType": "Sword",
+		"replaces": "Spearman",
+		"uniqueTo": "Barbarians",
+		"movement": 3,
+		"strength": 10,
+		"cost": 45,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"promotions":["Morale"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Terrorist",
+		"unitType": "Gunpowder",
+		"uniqueTo": "Barbarians",
+		"replaces": "Infantry",
+		"movement": 2,
+		"strength": 65,
+		"cost": 240,
+		"requiredTech": "Plastics",
+		"uniques": [
+			"[+75]% Strength <vs [Wounded] units>"
+		],
+		"attackSound": "shot"
+		// Credits to Sullien's Future expansion mod 
+	}
 ]
