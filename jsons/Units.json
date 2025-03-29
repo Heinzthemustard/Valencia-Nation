@@ -60,7 +60,7 @@
 		"cost": 30,
 		"upgradesTo": "Caravel",
 		"obsoleteTech": "Astronomy",
-		"promotions": ["Coastal Raider I", "[Privateer] ability"],
+		"promotions": ["Coastal Raider II", "[Privateer] ability"],
 		"attackSound": "nonmetalhit"
 	},
 	{
