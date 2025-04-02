@@ -10,3 +10,10 @@ NationIcons/Valencia
   orig: 100, 100
   offset: 0, 0
   index: -1
+NationIcons/Guardian
+  rotate: false
+  xy: 104, 62
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
