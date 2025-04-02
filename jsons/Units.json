@@ -29,7 +29,7 @@
 		"strength": 10,
 		"rangedStrength": 15,
 		"range": 3,
-		"cost": 100,
+		"cost": 70,
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Gatling Gun",
 		"obsoleteTech": "Industrialization",
