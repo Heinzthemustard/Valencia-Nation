@@ -35,6 +35,18 @@
 		"obsoleteTech": "Industrialization",
 		"attackSound": "crossbow"
 	},
+	{
+		"name":"Guardian",
+		"unitType":"Sword",
+		"movement": 2,
+		"strength": 15,
+		"uniques": ["[+33]% Strength <when defending>","Never appears as a Barbarian unit"],
+		"cost": 90,
+		"requiredTech": "Civil Service",
+		"upgradesTo": "Lancer",
+		"obsoleteTech": "Metallurgy",
+		"attackSound": "metalhit"
+	},
 {
 		"name": "Brute",
 		"unitType": "Sword",
