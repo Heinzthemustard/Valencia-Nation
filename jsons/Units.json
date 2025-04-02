@@ -22,6 +22,19 @@
 		"promotions":"Chemicals",
 		"attackSound": "missile"
 	},
+	{
+		"name":"Longbow",
+		"unitType":"Archery",
+		"movement": 2,
+		"strength": 10,
+		"rangedStrength": 15,
+		"range": 3,
+		"cost": 100,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Gatling Gun",
+		"obsoleteTech": "Industrialization",
+		"attackSound": "crossbow"
+	},
 {
 		"name": "Brute",
 		"unitType": "Sword",
