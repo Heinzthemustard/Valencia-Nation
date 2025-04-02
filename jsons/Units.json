@@ -9,6 +9,19 @@
 		"upgradesTo": "Militia",
 		"cost": 70
 	},
+	{
+		"name":"Dirty bomb",
+		"unitType":"Missile",
+		"movement": 1,
+		"strength": 5,
+		"rangedStrength": 60,
+		"range": 10,
+		"cost": 150,
+		"requiredTech": "Chemistry",
+		"uniques": ["[-100]% maintenance costs"],
+		"promotions":"Chemicals",
+		"attackSound": "missile"
+	}
 {
 		"name": "Brute",
 		"unitType": "Sword",
