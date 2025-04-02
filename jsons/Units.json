@@ -21,7 +21,7 @@
 		"uniques": ["[-100]% maintenance costs"],
 		"promotions":"Chemicals",
 		"attackSound": "missile"
-	}
+	},
 {
 		"name": "Brute",
 		"unitType": "Sword",
