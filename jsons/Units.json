@@ -19,7 +19,7 @@
 		"cost": 150,
 		"requiredTech": "Chemistry",
 		"uniques": ["[-100]% maintenance costs","Blast radius[1]"],
-		"promotions":"Chemicals",
+		"promotions":["Chemicals"],
 		"attackSound": "missile"
 	},
 	{
@@ -57,8 +57,8 @@
 		"cost": 13,
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Swordsman",
-		"attackSound": "nonmetalhit"
-		"promotions":["Shock I"], 
+		"attackSound": "nonmetalhit",
+		"promotions":["Shock I"]
 	},
   {
 		"name": "Skirmisher",
