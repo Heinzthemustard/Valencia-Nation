@@ -18,7 +18,7 @@
 		"range": 6,
 		"cost": 150,
 		"requiredTech": "Chemistry",
-		"uniques": ["[-100]% maintenance costs","Blast radius[1]"],
+		"uniques": ["[-100]% maintenance costs","Blast radius [1]"],
 		"promotions":["Chemicals"],
 		"attackSound": "missile"
 	},
