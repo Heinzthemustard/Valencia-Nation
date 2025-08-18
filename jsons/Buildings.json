@@ -48,7 +48,7 @@
 	},
 		{
 		"name": "Pyromancy",
-		"cost": 100,
+		"cost": 50,
 		"isNationalWonder": true,
 		"uniques": ["Cannot be hurried"],
 		"requiredTech": "Witchcraft"
