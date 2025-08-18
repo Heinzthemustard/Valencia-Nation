@@ -47,12 +47,34 @@
 		"promotions":["Chemicals"],
 		"attackSound": "missile"
 	},
+			{
+		"name":"Pyromancer",
+		"unitType":"Archery",
+		"movement": 2,
+		"strength": 5,
+		"rangedStrength": 20,
+		"range": 2,
+		"cost": 250,
+		"requiredTech": "Witchcraft",
+		"uniques": ["Only available <if [Pyromancy] is constructed>"],
+		"promotions":["Accuracy I","Volley"],
+		"attackSound": "missile"
+	},
+	{
+		"name": "Emberman",
+		"unitType": "Gunpwder",
+		"movement": 2,
+		"strength": 10,
+		"cost": 180,
+		"promotions": ["Wildfire","Survivalism I"],
+		"attackSound": "nometalhit"
+	},
 	{
 		"name":"Longbow",
 		"unitType":"Archery",
 		"movement": 2,
 		"strength": 10,
-		"rangedStrength": 14,
+		"rangedStrength": 12,
 		"range": 3,
 		"cost": 70,
 		"requiredTech": "Iron Working",
