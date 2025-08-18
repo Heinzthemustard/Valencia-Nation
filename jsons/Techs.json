@@ -1,16 +1,18 @@
 [
-{
-		"columnNumber": 5,
-		"era": "Medieval era",
-		"techCost": 485,
-		"buildingCost": 160,
-		"wonderCost": 400,
-		"techs": [
-			{
-				"name": "Witchcraft",
-				"cost": 400,
-				"row": 2,
-				"prerequisites": ["Theology"],
-				"quote": "'I will set my face against anyone who turns to mediums and spiritists to prostitute themselves by following them, and I will cut them off from their people.' - The Bible"
-			}
+  {
+    "columnNumber": 5,
+    "era": "Medieval era",
+    "techCost": 485,
+    "buildingCost": 160,
+    "wonderCost": 400,
+    "techs": [
+      {
+        "name": "Witchcraft",
+        "cost": 400,
+        "row": 2,
+        "prerequisites": ["Theology"],
+        "quote": "'I will set my face against anyone who turns to mediums and spiritists to prostitute themselves by following them, and I will cut them off from their people.' - The Bible"
+      }
     ]
+  }
+]
