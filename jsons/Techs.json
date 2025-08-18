@@ -9,7 +9,7 @@
       {
         "name": "Witchcraft",
         "cost": 400,
-        "row": 2,
+        "row": 4,
         "prerequisites": ["Theology"],
         "quote": "'I will set my face against anyone who turns to mediums and spiritists to prostitute themselves by following them, and I will cut them off from their people.' - The Bible"
       }
