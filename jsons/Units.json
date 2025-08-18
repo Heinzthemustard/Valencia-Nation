@@ -62,12 +62,12 @@
 	},
 	{
 		"name": "Emberman",
-		"unitType": "Gunpwder",
+		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 10,
 		"cost": 180,
 		"promotions": ["Wildfire","Survivalism I"],
-		"attackSound": "nometalhit"
+		"attackSound": "nonmetalhit"
 	},
 	{
 		"name":"Longbow",
@@ -104,7 +104,7 @@
 		"requiredTech": "Mathematics",
 		"upgradesTo": "Lancer",
 		"obsoleteTech": "Metallurgy",
-		"attackSound": "nometalhit"
+		"attackSound": "nonmetalhit"
 	},
 {
 		"name": "Brute",
@@ -188,7 +188,6 @@
 			"[+75]% Strength <vs [Wounded] units>"
 		],
 		"attackSound": "shot"
-		// Credits to Sullien's Future expansion mod 
 	},
 	{
 		"name":"Militia",
