@@ -146,7 +146,6 @@
 	{
 		"name":"Militia",
 		"unitType":"Gunpowder",
-		"uniqueTo":"Barbarian Nation",
 		"movement": 2,
 		"strength": 20,
 		"cost": 100,
