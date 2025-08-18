@@ -45,5 +45,19 @@
 		"percentStatBonus": {"Science": 33},
 		"requiredBuilding": "Library",
 		"requiredTech": "Education"
+	},
+		{
+		"name": "Pyromancy",
+		"cost": 100,
+		"isNationalWonder": true,
+		"uniques": ["Cannot be hurried"],
+		"requiredTech": "Witchcraft"
+	},
+	{
+		"name": "Healing",
+		"cost": 100,
+		"isNationalWonder": true,
+		"uniques": ["Cannot be hurried"],
+		"requiredTech": "Witchcraft"
 	}
 ]
