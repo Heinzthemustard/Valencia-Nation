@@ -42,8 +42,8 @@
 		"rangedStrength": 8,
 		"range": 3,
 		"cost": 150,
-		"requiredTech": "Chemistry",
-		"uniques": ["[-100]% maintenance costs","Blast radius [1]"],
+		"requiredTech": "Witchcraft",
+		"uniques": ["[-100]% maintenance costs","Blast radius [1]","Only available <if [Pyromancy] is constructed>"],
 		"promotions":["Chemicals"],
 		"attackSound": "missile"
 	},
