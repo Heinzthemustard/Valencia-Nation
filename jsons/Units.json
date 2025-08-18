@@ -34,6 +34,19 @@
 		"promotions":["Chemicals"],
 		"attackSound": "missile"
 	},
+		{
+		"name":"Fire ball",
+		"unitType":"Missile",
+		"movement": 1,
+		"strength": 5,
+		"rangedStrength": 8,
+		"range": 3,
+		"cost": 150,
+		"requiredTech": "Chemistry",
+		"uniques": ["[-100]% maintenance costs","Blast radius [1]"],
+		"promotions":["Chemicals"],
+		"attackSound": "missile"
+	},
 	{
 		"name":"Longbow",
 		"unitType":"Archery",
@@ -58,6 +71,18 @@
 		"upgradesTo": "Lancer",
 		"obsoleteTech": "Metallurgy",
 		"attackSound": "metalhit"
+	},
+		{
+		"name":"Battle Ram",
+		"unitType":"Mounted",
+		"movement": 3,
+		"strength": 11,
+		"uniques": ["[+33]% Strength <when attacking>","[-33]% Strength <when defending>"],
+		"cost": 65,
+		"requiredTech": "Mathematics",
+		"upgradesTo": "Lancer",
+		"obsoleteTech": "Metallurgy",
+		"attackSound": "nometalhit"
 	},
 {
 		"name": "Brute",
