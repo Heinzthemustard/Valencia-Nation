@@ -4,7 +4,7 @@
     "uniques": ["[+1000]% Strength <vs [Civilian] units>"]
   },
   {
-		"name": "Haka War Dance",
+		"name": "Wildfire",
 		"uniques": ["[-20]% Strength for enemy [Military] units in adjacent [All] tiles"]
 	}
 ]
