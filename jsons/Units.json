@@ -57,7 +57,6 @@
 		"cost": 250,
 		"requiredTech": "Witchcraft",
 		"uniques": ["Only available <if [Pyromancy] is constructed>"],
-		"promotions":["Accuracy I","Volley"],
 		"attackSound": "missile"
 	},
 	{
@@ -66,7 +65,7 @@
 		"movement": 2,
 		"strength": 8,
 		"cost": 170,
-		"promotions": ["Wildfire","Survivalism I"],
+		"promotions": ["Wildfire"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -112,12 +111,11 @@
 		"uniqueTo": "Barbarian Nation",
 		"replaces": "Warrior",
 		"movement": 2,
-		"strength": 8,
+		"strength": 7,
 		"cost": 13,
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Swordsman",
 		"attackSound": "nonmetalhit",
-		"promotions":["Shock I"]
 	},
   {
 		"name": "Skirmisher",
@@ -126,7 +124,7 @@
 		"replaces": "Archer",
 		"movement": 2,
 		"strength": 4,
-		"rangedStrength": 7,
+		"rangedStrength": 5,
 		"cost": 16,
 		"requiredTech": "Archery",
 		"obsoleteTech": "Machinery",
@@ -139,13 +137,13 @@
 	  	"uniqueTo": "Barbarian Nation",
 	  	"replaces": "Spearman",
 	  	"movement": 2,
-	  	"strength": 10,
+	  	"strength": 8,
 		"cost": 30,
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+25]% Strength <vs [Wounded] units>"],
-	  	"promotions": ["Amphibious","Ignore terrain cost"],
+		"uniques": ["[+5]% Strength <vs [Wounded] units>"],
+	  	"promotions": ["Ignore terrain cost"],
 	  	"attackSound": "metalhit"
  	},
 	{
@@ -157,7 +155,7 @@
 		"cost": 30,
 		"upgradesTo": "Caravel",
 		"obsoleteTech": "Astronomy",
-		"promotions": ["Coastal Raider II", "[Privateer] ability"],
+		"promotions": ["Coastal Raider I","Coastal Raider II", "[Privateer] ability"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -171,8 +169,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
-		"promotions":["Morale"],
+		"uniques": ["[+20]% Strength <vs [Mounted] units>"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -185,7 +182,7 @@
 		"cost": 240,
 		"requiredTech": "Plastics",
 		"uniques": [
-			"[+75]% Strength <vs [Wounded] units>"
+			"[+50]% Strength <vs [Wounded] units>"
 		],
 		"attackSound": "shot"
 	},
@@ -193,12 +190,12 @@
 		"name":"Militia",
 		"unitType":"Gunpowder",
 		"movement": 2,
-		"strength": 18,
-		"cost": 100,
+		"strength": 14,
+		"cost": 120,
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
-		"promotions": ["Ambush I","Morale"],
+		"promotions": ["Ambush I"]
 		"attackSound": "shot"
 	}
 ]
